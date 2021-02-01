@@ -1,0 +1,33 @@
+.header {
+    overflow: hidden;
+    background-color: rgb(105, 105, 105);
+    height: 60px;
+}
+.add_button {
+    outline-style: none;
+    font-weight: 760;
+    margin-right: 10px;
+    margin-top: 7px;
+    float: right;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgb(255, 153, 0);
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 0.3rem;
+}
+.add_button:hover {
+    background-color:  rgb(223, 134, 0);
+    color: rgba(255, 255, 255, 0.774);
+    transition: 0.3s;
+}
+a {
+    margin-top: 12px;
+    margin-left: 15px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+}

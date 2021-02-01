@@ -1,0 +1,6 @@
+<table class="table table-hover">
+    <tbody *ngFor="let comment of allComments"  (click)="editPost(comment.id)" class="body-comment"> 
+        <!-- Se pasan datos desde componente padre (comments-list) a app-comment -->
+        <app-comment [comment]="comment"></app-comment>
+    </tbody>
+</table>

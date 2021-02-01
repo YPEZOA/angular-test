@@ -1,0 +1,14 @@
+<div class="container_edit">
+    <form [formGroup]="editForm" (ngSubmit)="submitForm(editForm.value)">
+        <div class="form-group">
+            <label for="titulo">Titulo:</label>
+            <input type="text" class="form-control" placeholder="Titulo del post" formControlName="title">
+        </div>
+        <div class="form-group">
+            <label for="comentario">Comentario:</label>
+            <textarea type="text" class="form-control" rows="5" placeholder="Comentarios.." formControlName="body"></textarea>
+        </div>
+        <button class="btn btn-success" type="submit">Guardar</button>
+        <button class="btn btn-danger" (click)="deletePost()">Borrar post</button>
+    </form>
+</div>

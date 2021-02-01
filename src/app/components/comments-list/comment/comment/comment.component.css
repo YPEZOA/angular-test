@@ -1,0 +1,19 @@
+.trow-comment {
+    height: 150px;
+} 
+.trow-comment > td {
+    display: inline-block;
+}
+.id {
+    font-size: 15px;
+}
+.titulo {
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 900;
+}
+.comentario {
+    text-transform: capitalize;
+    margin-left: 60px;
+    margin-right: 60px;
+}
